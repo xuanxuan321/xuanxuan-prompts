@@ -14,10 +14,9 @@
 
 实测可用的 Agent：
 
-- [Claude](https://claude.ai) / [Claude Code](https://claude.com/claude-code)
+- [Claude Code](https://claude.com/claude-code)
 - [Codex](https://chatgpt.com/codex)
-- [Kimi](https://www.kimi.com/)
-- 其他任何支持长文本 + 代码生成的模型也都可以
+- 其他任何支持长文本 + 代码生成的agent也都可以
 
 典型用法（以 Claude Code 为例）：
 
@@ -33,15 +32,15 @@ Agent 会根据提示词输出完整的项目代码（部分是 React + Vite 工
 
 > 预览列默认只显示轻量的**首帧封面图**，**点击封面**即可打开完整的 GIF 动图 —— 这样打开 README 时不会一次性加载所有动图。
 
-| 目录 | 类型 | 预览（点击播放） |
-| --- | --- | --- |
-| [liquidGlassAgency](./liquidGlassAgency/) | React + Vite + Tailwind + shadcn/ui + Framer Motion，深色液态玻璃风格的 AI 网页设计工作室落地页 | <a href="./liquidGlassAgency/liquidGlassAgency.gif" title="点击播放 GIF"><img src="./liquidGlassAgency/liquidGlassAgency.poster.jpg" width="360" alt="liquidGlassAgency 预览"></a> |
-| [interactiveDiscovery](./interactiveDiscovery/) | React + TypeScript + Vite + Tailwind，跟随光标揭示第二张图的地质品牌 Hero | <a href="./interactiveDiscovery/interactiveDiscovery.gif" title="点击播放 GIF"><img src="./interactiveDiscovery/interactiveDiscovery.poster.jpg" width="360" alt="interactiveDiscovery 预览"></a> |
-| [blueEyes](./blueEyes/) | React + TypeScript + Vite + Tailwind + lucide-react，滚动逐帧刷新视频背景（蓝色光纤汇聚成「数字之眼」）、极简大字排版的深色 AI 落地页 `NOVA_AI` | <a href="./blueEyes/blueEyes.gif" title="点击播放 GIF"><img src="./blueEyes/blueEyes.poster.jpg" width="360" alt="blueEyes 预览"></a> |
-| [openDoor](./openDoor/) | React 19 + Vite + Tailwind v4 + GSAP + hls.js，滚动擦洗 HLS 视频背景、液态玻璃 About 面板与药丸导航的沉浸式落地页 `Unleash The Full Power` | <a href="./openDoor/opendoor.gif" title="点击播放 GIF"><img src="./openDoor/opendoor.poster.jpg" width="360" alt="openDoor 预览"></a> |
-| [basketball](./basketball/) | React + TypeScript + Vite + Tailwind + Three.js（@react-three/fiber / drei）+ GSAP，程序化 3D 篮球 + 滚动技术叙事 + 加购飞行动画 + 定制器的高端运动电商微网站 `Slam Dunk Store` | <a href="./basketball/basketball.gif" title="点击播放 GIF"><img src="./basketball/basketball.poster.jpg" width="360" alt="basketball 预览"></a> |
-| [bloom](./bloom/) | 单文件 HTML，滚动驱动视频预抽帧的赛博植物学叙事页 `Bloom` | <a href="./bloom/bloom.gif" title="点击播放 GIF"><img src="./bloom/bloom.poster.jpg" width="360" alt="bloom 预览"></a> |
-| [flower](./flower/) | 单文件 HTML，滚动驱动视频帧 + 横向擦除卡片的沉浸式落地页 `Veldara` | <a href="./flower/flower.gif" title="点击播放 GIF"><img src="./flower/flower.poster.jpg" width="360" alt="flower 预览"></a> |
+| 目录                                            | 类型                                                                                                                                                                            | 预览（点击播放）                                                                                                                                                                                  |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [liquidGlassAgency](./liquidGlassAgency/)       | React + Vite + Tailwind + shadcn/ui + Framer Motion，深色液态玻璃风格的 AI 网页设计工作室落地页                                                                                 | <a href="./liquidGlassAgency/liquidGlassAgency.gif" title="点击播放 GIF"><img src="./liquidGlassAgency/liquidGlassAgency.poster.jpg" width="360" alt="liquidGlassAgency 预览"></a>                |
+| [interactiveDiscovery](./interactiveDiscovery/) | React + TypeScript + Vite + Tailwind，跟随光标揭示第二张图的地质品牌 Hero                                                                                                       | <a href="./interactiveDiscovery/interactiveDiscovery.gif" title="点击播放 GIF"><img src="./interactiveDiscovery/interactiveDiscovery.poster.jpg" width="360" alt="interactiveDiscovery 预览"></a> |
+| [blueEyes](./blueEyes/)                         | React + TypeScript + Vite + Tailwind + lucide-react，滚动逐帧刷新视频背景（蓝色光纤汇聚成「数字之眼」）、极简大字排版的深色 AI 落地页 `NOVA_AI`                                 | <a href="./blueEyes/blueEyes.gif" title="点击播放 GIF"><img src="./blueEyes/blueEyes.poster.jpg" width="360" alt="blueEyes 预览"></a>                                                             |
+| [openDoor](./openDoor/)                         | React 19 + Vite + Tailwind v4 + GSAP + hls.js，滚动擦洗 HLS 视频背景、液态玻璃 About 面板与药丸导航的沉浸式落地页 `Unleash The Full Power`                                      | <a href="./openDoor/opendoor.gif" title="点击播放 GIF"><img src="./openDoor/opendoor.poster.jpg" width="360" alt="openDoor 预览"></a>                                                             |
+| [basketball](./basketball/)                     | React + TypeScript + Vite + Tailwind + Three.js（@react-three/fiber / drei）+ GSAP，程序化 3D 篮球 + 滚动技术叙事 + 加购飞行动画 + 定制器的高端运动电商微网站 `Slam Dunk Store` | <a href="./basketball/basketball.gif" title="点击播放 GIF"><img src="./basketball/basketball.poster.jpg" width="360" alt="basketball 预览"></a>                                                   |
+| [bloom](./bloom/)                               | 单文件 HTML，滚动驱动视频预抽帧的赛博植物学叙事页 `Bloom`                                                                                                                       | <a href="./bloom/bloom.gif" title="点击播放 GIF"><img src="./bloom/bloom.poster.jpg" width="360" alt="bloom 预览"></a>                                                                            |
+| [flower](./flower/)                             | 单文件 HTML，滚动驱动视频帧 + 横向擦除卡片的沉浸式落地页 `Veldara`                                                                                                              | <a href="./flower/flower.gif" title="点击播放 GIF"><img src="./flower/flower.poster.jpg" width="360" alt="flower 预览"></a>                                                                       |
 
 ## 说明
 
