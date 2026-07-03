@@ -2,10 +2,10 @@
 
 一组用来「让 AI Agent 直接复刻精美网页」的提示词合集。
 
-每个子目录就是一个独立的网页项目，里面只有两份文件：
+每个子目录就是一个独立的网页项目，里面通常是两份文件：
 
 - `prompt.md` —— 给 Agent 的完整复刻提示词（含字体、颜色、动画、资源 URL、组件结构等所有细节）
-- `image.png` —— 这个提示词生成出来之后，网站首页的实际效果截图，供你预览参考
+- `<目录名>.mp4` —— 这个提示词生成出来之后，网站的实际效果录屏，供你预览参考
 
 ## 怎么用
 
@@ -26,20 +26,23 @@
 <把 prompt.md 的内容粘贴在这里>
 ```
 
-Agent 会根据提示词输出完整的项目代码（部分是 React + Vite 工程，部分是单文件 HTML），按它的指示运行起来就能得到 `image.png` 里的效果。
+Agent 会根据提示词输出完整的项目代码（部分是 React + Vite 工程，部分是单文件 HTML），按它的指示运行起来就能得到预览视频里的效果。
 
 ## 当前收录
 
 | 目录 | 类型 | 预览 |
 | --- | --- | --- |
-| [liquidGlassAgency](./liquidGlassAgency/) | React + Vite + Tailwind + shadcn/ui + Framer Motion，深色液态玻璃风格的 AI 网页设计工作室落地页 | ![](./liquidGlassAgency/image.png) |
-| [interactiveDiscovery](./interactiveDiscovery/) | React + TypeScript + Vite + Tailwind，跟随光标揭示第二张图的地质品牌 Hero | ![](./interactiveDiscovery/image.png) |
-| [blueEyes](./blueEyes/) | React + TypeScript + Vite + Tailwind + Three.js（@react-three/fiber / drei）+ GSAP，带 3D 篮球、滚动叙事、加购飞行动画与定制器的高端电商微网站 `Slam Dunk Store` | ![](./blueEyes/image.png) |
-| [bloom](./bloom/) | 单文件 HTML，滚动驱动视频预抽帧的赛博植物学叙事页 `Bloom` | ![](./bloom/image.png) |
-| [flower](./flower/) | 单文件 HTML，滚动驱动视频帧 + 横向擦除卡片的沉浸式落地页 `Veldara` | ![](./flower/image.png) |
+| [liquidGlassAgency](./liquidGlassAgency/) | React + Vite + Tailwind + shadcn/ui + Framer Motion，深色液态玻璃风格的 AI 网页设计工作室落地页 | [▶ 视频](./liquidGlassAgency/liquidGlassAgency.mp4) |
+| [interactiveDiscovery](./interactiveDiscovery/) | React + TypeScript + Vite + Tailwind，跟随光标揭示第二张图的地质品牌 Hero | [▶ 视频](./interactiveDiscovery/interactiveDiscovery.mp4) |
+| [blueEyes](./blueEyes/) | React + TypeScript + Vite + Tailwind + lucide-react，滚动逐帧刷新视频背景（蓝色光纤汇聚成「数字之眼」）、极简大字排版的深色 AI 落地页 `NOVA_AI` | [▶ 视频](./blueEyes/blueEyes.mp4) |
+| [openDoor](./openDoor/) | React 19 + Vite + Tailwind v4 + GSAP + hls.js，滚动擦洗 HLS 视频背景、液态玻璃 About 面板与药丸导航的沉浸式落地页 `Unleash The Full Power` | [▶ 视频](./openDoor/opendoor.mp4) |
+| [basketball](./basketball/) | React + TypeScript + Vite + Tailwind + Three.js（@react-three/fiber / drei）+ GSAP，程序化 3D 篮球 + 滚动技术叙事 + 加购飞行动画 + 定制器的高端运动电商微网站 `Slam Dunk Store` | [▶ 视频](./basketball/basketball.mp4) |
+| [bloom](./bloom/) | 单文件 HTML，滚动驱动视频预抽帧的赛博植物学叙事页 `Bloom` | —（暂无） |
+| [flower](./flower/) | 单文件 HTML，滚动驱动视频帧 + 横向擦除卡片的沉浸式落地页 `Veldara` | [▶ 视频](./flower/flower.mp4) |
 
 ## 说明
 
 - 提示词里引用的视频、图片、GIF 都是公网可访问的 CDN 链接，Agent 生成的代码可以直接拉取使用。
 - 不同提示词对技术栈的要求不一样（有 React 工程，也有零依赖的单文件 HTML），按 `prompt.md` 里写的来即可。
-- 仓库会持续补充更多复刻提示词，欢迎 PR 提交你自己写的 `prompt.md` + 效果图。
+- 预览列的 `.mp4` 是效果录屏，点开即可在 GitHub 内置播放器里查看。
+- 仓库会持续补充更多复刻提示词，欢迎 PR 提交你自己写的 `prompt.md` + 效果视频（`.mp4`）。
