@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
-# mp4-to-gif.sh —— 把仓库里所有 .mp4 转成同名 .gif，然后删掉原 mp4。
+# mp4-to-gif.sh —— 把仓库里所有 .mp4 转成同名 .gif（并生成首帧封面 .poster.jpg），
+#                 然后删掉原 mp4。
 #
 # 用法：
 #   ./mp4-to-gif.sh                # 在当前 git 仓库（或当前目录）下递归处理所有 mp4
@@ -77,11 +78,14 @@ while IFS= read -r -d '' mp4; do
   # 成功生成才删 mp4
   if [ -s "$gif" ]; then
     converted=$((converted + 1))
+    # 首帧封面（轻量 jpg；README 默认显示封面，点击才加载完整 gif）
+    poster="${mp4%.mp4}.poster.jpg"
+    ffmpeg -y -loglevel error -i "$gif" -frames:v 1 -update 1 -q:v 3 "$poster"
     if [ "$KEEP_MP4" = "1" ]; then
-      echo "   ✅ ${gif#$ROOT/}（${mb}MB，保留原 mp4）"
+      echo "   ✅ ${gif#$ROOT/} + 封面（${mb}MB，保留原 mp4）"
     else
       rm -f "$mp4"
-      echo "   ✅ ${gif#$ROOT/}（${mb}MB），已删除原 mp4"
+      echo "   ✅ ${gif#$ROOT/} + 封面（${mb}MB），已删除原 mp4"
     fi
   else
     echo "   ❌ 转换失败，保留原 mp4"
