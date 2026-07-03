@@ -1,0 +1,1 @@
+先检查一下是否含有website-offline-archive这个skill，如果没有，就先去github上下载这个skill。这个skill对应的GitHub仓库名就叫做website-offline-archive。下载完后用这个skill去复刻 https://www.igloo.inc/ 这个网站。复刻完以后，就把项目起起来，给用户本地的访问链接。
