@@ -32,8 +32,9 @@ Agent 会根据提示词输出完整的项目代码（部分是 React + Vite 工
 
 | 目录 | 类型 | 预览 |
 | --- | --- | --- |
-| [Liquid Glass Agency](./Liquid%20Glass%20Agency/) | React + Vite + Tailwind + shadcn/ui + Framer Motion，深色液态玻璃风格的 AI 网页设计工作室落地页 | ![](./Liquid%20Glass%20Agency/image.png) |
-| [Interactive Discovery](./Interactive%20Discovery/) | React + TypeScript + Vite + Tailwind，跟随光标揭示第二张图的地质品牌 Hero | ![](./Interactive%20Discovery/image.png) |
+| [liquidGlassAgency](./liquidGlassAgency/) | React + Vite + Tailwind + shadcn/ui + Framer Motion，深色液态玻璃风格的 AI 网页设计工作室落地页 | ![](./liquidGlassAgency/image.png) |
+| [interactiveDiscovery](./interactiveDiscovery/) | React + TypeScript + Vite + Tailwind，跟随光标揭示第二张图的地质品牌 Hero | ![](./interactiveDiscovery/image.png) |
+| [blueEyes](./blueEyes/) | React + TypeScript + Vite + Tailwind + Three.js（@react-three/fiber / drei）+ GSAP，带 3D 篮球、滚动叙事、加购飞行动画与定制器的高端电商微网站 `Slam Dunk Store` | ![](./blueEyes/image.png) |
 | [bloom](./bloom/) | 单文件 HTML，滚动驱动视频预抽帧的赛博植物学叙事页 `Bloom` | ![](./bloom/image.png) |
 | [flower](./flower/) | 单文件 HTML，滚动驱动视频帧 + 横向擦除卡片的沉浸式落地页 `Veldara` | ![](./flower/image.png) |
 
