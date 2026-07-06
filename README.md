@@ -44,6 +44,7 @@ Agent 会根据提示词输出完整的项目代码（部分是 React + Vite 工
 | [liquidGlass](./liquidGlass/) | 单文件 HTML（CDN 版 React 18 + Tailwind + Framer Motion + Babel），双段视频背景 + JS 交叉淡入 + 液态玻璃设计系统的电影感太空旅行落地页 `Venture Past Our Sky` | <a href="./liquidGlass/liquidGlass.gif" title="点击播放 GIF"><img src="./liquidGlass/liquidGlass.poster.jpg" width="360" alt="liquidGlass 预览"></a> |
 | [helmet](./helmet/) | 「克隆真实站点」型：让 Agent 先安装 `website-offline-archive` skill，再用它离线复刻 F1 车手 Lando Norris 官网 [landonorris.com](https://landonorris.com/)（赛车头盔/护目镜 Hero），而非从零手写 | <a href="./helmet/helmet.gif" title="点击播放 GIF"><img src="./helmet/helmet.poster.jpg" width="360" alt="helmet 预览"></a> |
 | [iceHouse](./iceHouse/) | 「克隆真实站点」型：让 Agent 先安装 `website-offline-archive` skill，再用它离线复刻 [igloo.inc](https://www.igloo.inc/)（重度 WebGL 3D 冰屋场景），而非从零手写 | <a href="./iceHouse/iceHouse.gif" title="点击播放 GIF"><img src="./iceHouse/iceHouse.poster.jpg" width="360" alt="iceHouse 预览"></a>                                                                       |
+| [spaceman](./spaceman/) | 「克隆真实站点」型：让 Agent 先安装 `claude-skill-web-clone` skill，再用它复刻创意工作室官网 [lusion.co](https://lusion.co/)（重度 WebGL/交互动效），而非从零手写 | <a href="./spaceman/spaceman.gif" title="点击播放 GIF"><img src="./spaceman/spaceman.poster.jpg" width="360" alt="spaceman 预览"></a> |
 
 ## 说明
 
